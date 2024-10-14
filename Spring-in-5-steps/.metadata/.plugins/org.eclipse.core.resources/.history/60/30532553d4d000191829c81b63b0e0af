@@ -1,0 +1,19 @@
+package com.myFirstSprBootProj.Spring.basics.applnContextDemos;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class ApplicationContextDemo {
+	PersonDAO personDAO;
+	public PersonDAO getPersonDAO() {
+		return personDAO;
+	}
+	public void setPersonDAO(PersonDAO personDAO) {
+		this.personDAO = personDAO;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			ClassPathXmlApplicationContext xmlContext = new ClassPathXmlApplicationContext("ApplnContextEntries.xml");
+			
+	}
+
+}

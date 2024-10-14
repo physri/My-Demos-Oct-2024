@@ -1,0 +1,10 @@
+package com.in28minutes.springboot.basics.springbootin10steps.java8demos;
+
+import lombok.Data;
+
+@Data
+public class Product {
+    private String productName;
+    private Long productId;
+    private Long productPrice;
+}
