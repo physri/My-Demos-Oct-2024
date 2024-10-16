@@ -1,9 +1,9 @@
 package Samples;
 
-import lombok.Data;
+//import lombok.Data;
 
 import java.util.List;
-@Data
+//@Data
 public class Order {
     private List<Product> productList;
     private Long orderId;

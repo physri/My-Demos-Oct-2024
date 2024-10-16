@@ -1,6 +1,6 @@
 package Samples;
 
-@Data
+//@Data
 public class Product {
     private String productName;
     private Long productId;
